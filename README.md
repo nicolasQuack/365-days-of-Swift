@@ -55,9 +55,13 @@ Sorted by development time.
 + Learn new things
 + And never give up
 
-+ ## Target
+## Target
 
 + Be happy 🥹
 + Starting a job as an iOS developer in april 😎
 + Specialize in iOS as much as possible 🤩
 
+## Links
+
++ [Free course page is here!](https://www.hackingwithswift.com/)
++ [Inspiration for repository](https://github.com/devmehmetates/365-day-of-code)
