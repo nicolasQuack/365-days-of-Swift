@@ -40,3 +40,22 @@ This repository has been opened to develop iOS in a planned way.
 | Name | File | Subjects |
 | ---- | ---- | -------- |
 
+### My Side Projects for iOS
+Sorted by development time.
+
+| Name | Status | Url | Subject | Main Technologies | Sub Technologies or Target |
+| ---- | ------ | --- | ------- | ----------------- | -------------------------- |
+
+## Rules
+
++ Deviation from sources
++ Do not rush
++ Learn new things
++ And never give up
+
++ ## Target
+
++ Be happy 🥹
++ Starting a job as an iOS developer in april 😎
++ Specialize in iOS as much as possible 🤩
+
