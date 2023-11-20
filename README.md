@@ -1,13 +1,13 @@
-<h1 align=center> 365 days of Swift </h1>
+<h1 align=center> <img src="https://www.google.com/url?sa%253Di%2526url%253Dhttps%253A%252F%252Fwww.flaticon.com%252Ffree-icon%252Fswift_5968371%2526psig%253DAOvVaw2O4fK4Nn9TbEo8H3TAOiWw%2526ust%253D1700579014142000%2526source%253Dimages%2526cd%253Dvfe%2526ved%253D0CBEQjRxqFwoTCOjQ8tHs0oIDFQAAAAAdAAAAABAE" > 365 days of Swift </h1>
 This repository has been opened to develop iOS in a planned way.
 
 ## Plan
 
 | Day | Title                              | State         | 
 |-----|------------------------------------| ------------- | 
-| 100 | Swift And UIKit                    |      |
-| 100 | Swift Review and SwiftUI           |      |
-| 365 | Project examples and more practice |      |
+| 100 | Swift And UIKit                    |               |
+| 100 | Swift Review and SwiftUI           |               |
+| 365 | Project examples and more practice |               |
 
 ## Swift Fundamentals 
 | Topics                                        | File                                                                                                                                                        |
