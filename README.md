@@ -1,4 +1,4 @@
-<h1 align=center> <img src="https://ideias.avancadas.info/images/Apple-Swift.png" > 365 days of Swift </h1>
+<h1 align=center> <img src="https://ideias.avancadas.info/images/Apple-Swift.png" widht=20> 365 days of Swift </h1>
 This repository has been opened to develop iOS in a planned way.
 
 ## Plan
