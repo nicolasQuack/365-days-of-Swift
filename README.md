@@ -9,7 +9,7 @@ This repository has been opened to develop iOS in a planned way.
 | 100 | Swift Review and SwiftUI           |  In progress  |
 | 365 | Project examples and more practice |               |
 
-## Swift Fundamentals (In progress 🛠️)
+## Swift Fundamentals (In progress 🏗️)
 | Topics                                        | File                                                                                                                                                        |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Variables                                     | <a href="/">File</a> |
