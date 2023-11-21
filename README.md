@@ -41,6 +41,7 @@ This repository has been opened to develop iOS in a planned way.
 | ---- | ---- | -------- |
 | We Split | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/16-24%20Starting%20SwiftUI/16-18%20Project%201/WeSplit">File</a> | Form, NavigationStack, @State, Picker, @FocusState, ForEach, TextField |
 | Converting Measures | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/16-24%20Starting%20SwiftUI/19%20Challenge%20Day/ConvertingThings">File</a> | Format (.percentage, .currency, .number) |
+| Guess the Flag | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/16-24%20Starting%20SwiftUI/20-22%20Project%202/GuessTheFlag">File</a> | HStack, VStack, ZStack, Json format |
 
 ## Side Project Map
 
