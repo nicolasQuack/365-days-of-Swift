@@ -44,7 +44,7 @@ This repository has been opened to develop iOS in a planned way.
 | Guess the Flag | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/16-24%20Starting%20SwiftUI/20-22%20Project%202/GuessTheFlag">File</a> | HStack, VStack, ZStack, Json format, Alert | ✅ |
 | Views & Modifiers | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/16-24%20Starting%20SwiftUI/23-24%20Project%203/ViewsAndModifiers">File</a> | ViewsModifiers | ✅ |
 | Rock, paper and scissor | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/25%20Consolidation%20II/25%20Milestone%20Project%201-3/RockPaperScissor">File</a> | Pure programming logic | ✅ |
-| Better Rest | <a href="/">File</a> | Machine Learning, Dates, Hour | ⏳ |
+| Better Rest | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/26-34%20Expanding%20your%20skills/26-28%20Project%204/BetterRest">File</a> | Machine Learning, Dates, Hour | ⏳ |
 
 ## Side Project Map
 
