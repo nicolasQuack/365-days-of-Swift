@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct rootWordClass: Hashable {
+struct rootWordStruct: Hashable {
     var word: String
     var score: Int
     
