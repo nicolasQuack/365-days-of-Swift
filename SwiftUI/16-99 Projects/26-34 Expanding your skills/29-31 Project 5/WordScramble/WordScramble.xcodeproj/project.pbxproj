@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		603A5B182B16C9F00020B13C /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 603A5B172B16C9F00020B13C /* start.txt */; };
 		6090ED692B13A0A500002AC9 /* WordScrambleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6090ED682B13A0A500002AC9 /* WordScrambleApp.swift */; };
 		6090ED6B2B13A0A500002AC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6090ED6A2B13A0A500002AC9 /* ContentView.swift */; };
 		6090ED6D2B13A0A600002AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6090ED6C2B13A0A600002AC9 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		603A5B172B16C9F00020B13C /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		6090ED652B13A0A500002AC9 /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6090ED682B13A0A500002AC9 /* WordScrambleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleApp.swift; sourceTree = "<group>"; };
 		6090ED6A2B13A0A500002AC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				6090ED762B13A91C00002AC9 /* StudiesCases */,
 				6090ED682B13A0A500002AC9 /* WordScrambleApp.swift */,
 				6090ED6A2B13A0A500002AC9 /* ContentView.swift */,
+				603A5B172B16C9F00020B13C /* start.txt */,
 				6090ED6C2B13A0A600002AC9 /* Assets.xcassets */,
 				6090ED6E2B13A0A600002AC9 /* Preview Content */,
 			);
@@ -78,8 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				6090ED772B13A93800002AC9 /* Lists.swift */,
-				6090ED792B13ABA100002AC9 /* URLs.swift */,
 				60F091E12B14F52200DD23D2 /* Strings.swift */,
+				6090ED792B13ABA100002AC9 /* URLs.swift */,
 			);
 			path = StudiesCases;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6090ED702B13A0A600002AC9 /* Preview Assets.xcassets in Resources */,
+				603A5B182B16C9F00020B13C /* start.txt in Resources */,
 				6090ED6D2B13A0A600002AC9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
