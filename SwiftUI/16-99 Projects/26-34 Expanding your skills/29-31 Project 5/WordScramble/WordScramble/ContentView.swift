@@ -39,6 +39,12 @@ struct ContentView: View {
             .onSubmit(addNewWord)
             .onAppear(perform: startGame)
             .alert(errorTitle, isPresented: $showingError) { } message: { Text(errorMessage) }
+            .toolbar {
+                Button ("restart", systemImage: "restart.circle") {
+                    startGame()
+                    
+                }
+            }
         }
     }
     
@@ -46,10 +52,18 @@ struct ContentView: View {
         
         let answer = newWord.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
         
-        guard answer.count > 0 else { return }
+        guard isDiferent(word: answer) else {
+            wordError(title: "Word is the same", message: "You can be more original!")
+            return
+        }
+        
+        guard isLonger(word: answer) else {
+            wordError(title: "Word is so shorter", message: "You can't spell words with below three letters!")
+            return
+        }
         
         guard isOriginal(word: answer) else {
-            wordError(title: "Word used already", message: "Be more original")
+            wordError(title: "Word used already", message: "Be more original!")
             return
         }
         
@@ -77,6 +91,7 @@ struct ContentView: View {
                 let allWords = startWords.components(separatedBy: "\n")
                 
                 rootWord = allWords.randomElement() ?? "silkworm"
+                usedWords = []
                 
                 return
             }
@@ -110,6 +125,14 @@ struct ContentView: View {
         let misspelledRange = checker.rangeOfMisspelledWord(in: word, range: range, startingAt: 0, wrap: false, language: "en")
         
         return misspelledRange.location == NSNotFound
+    }
+    
+    func isLonger (word: String) -> Bool {
+        return word.count > 2
+    }
+    
+    func isDiferent (word: String) -> Bool {
+        return !(word == rootWord)
     }
     
     func wordError (title: String, message: String) {
