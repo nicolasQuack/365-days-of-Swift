@@ -23,6 +23,7 @@ struct ContentView: View {
                 Section {
                     TextField("Enter your word", text: $newWord)
                         .textInputAutocapitalization(.never)
+                        .autocorrectionDisabled()
                 }
                 
                 Section {
@@ -47,12 +48,12 @@ struct ContentView: View {
         
         guard answer.count > 0 else { return }
         
-        guard isPossible(word: answer) else {
+        guard isOriginal(word: answer) else {
             wordError(title: "Word used already", message: "Be more original")
             return
         }
         
-        guard isOriginal(word: answer) else {
+        guard isPossible(word: answer) else {
             wordError(title: "Word not possible", message: "You can't spell that word from '\(rootWord)'!")
             return
         }
