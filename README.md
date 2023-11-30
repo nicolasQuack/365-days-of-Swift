@@ -55,7 +55,7 @@ Sorted by development time.
 
 | Name | Status | Url | Subject | Main Technologies | Sub Technologies or Target |
 | ---- | ------ | --- | ------- | ----------------- | -------------------------- |
-| Marvel Comics | In progress | https://github.com/nicolasQuack/365-days-of-Swift/tree/main/Projects/MarvelComics | Search in Marvel Comics Universe | Swift, MarvelAPI |  |
+| Marvel Comics | 🏗️ | https://github.com/nicolasQuack/365-days-of-Swift/tree/main/Projects/MarvelComics | Search in Marvel Comics Universe | Swift, MarvelAPI |  |
 ## Rules
 
 + Deviation from sources
