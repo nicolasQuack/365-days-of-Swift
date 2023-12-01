@@ -8,51 +8,68 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var userName = ""
     @State private var user: GitHubUser?
     
     var body: some View {
-        VStack (spacing: 20) {
-            AsyncImage(url: URL(string: user?.avatarUrl ?? "")) { Image in
-                Image
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .clipShape(.circle)
-            } placeholder: {
-                Circle()
-                    .foregroundStyle(.secondary)
+        VStack () {
+            
+            Form {
+                Section ("Enter your username here:") {
+                    TextField("", text: $userName)
+                        .textInputAutocapitalization(.never)
+                        .autocorrectionDisabled()
+                        .onChange(of: userName) {
+                            Task {
+                                do {
+                                   user = try await getUser(login: userName)
+                                } catch GitHubError.invalidData {
+                                    print("invalid Data")
+                                } catch GitHubError.invalidResponse {
+                                    print("invalid Response")
+                                } catch GitHubError.invalidURL {
+                                    print("invalid URL")
+                                } catch {
+                                    print("unexpected error")
+                                }
+                            }
+                        }
+                        
+                }
             }
-            .frame(width: 120, height: 120)
+            .frame(height: 100)
             
-            
-            Text(user?.login ?? "Login Placeholder")
-                .bold()
-                .font(.title3)
-            
-            Text(user?.bio ?? "Bio placeholder")
-                .padding()
+                Section {
+                    AsyncImage(url: URL(string: user?.avatarUrl ?? "")) { Image in
+                        Image
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .clipShape(.circle)
+                    } placeholder: {
+                        Circle()
+                            .foregroundStyle(.secondary)
+                    }
+                    .frame(width: 120, height: 120)
+                    
+                    Text(user?.name ?? "Name Placeholder")
+                    
+                    Text(user?.login ?? "Login Placeholder")
+                        .bold()
+                        .font(.title3)
+                }
             
             Spacer()
+                
         }
-        .padding()
-        .task {
-            do {
-                user = try await getUser()
-            } catch GitHubError.invalidData {
-                print("invalid Data")
-            } catch GitHubError.invalidResponse {
-                print("invalid Response")
-            } catch GitHubError.invalidURL {
-                print("invalid URL")
-            } catch {
-                print("unexpected error")
-            }
-        }
+        
     }
     
-    func getUser() async throws -> GitHubUser {
-        let endpoint = "https://api.github.com/users/nicolasQuack"
+    func getUser(login: String) async throws -> GitHubUser {
         
-        guard let url = URL(string: endpoint) else {
+        let path = URL(string: "https://api.github.com/users/\(login)")
+       
+        
+        guard let url = path else {
             throw GitHubError.invalidURL
         }
         
@@ -70,7 +87,6 @@ struct ContentView: View {
             throw GitHubError.invalidData
         }
     }
-    
 }
 
 #Preview {
@@ -80,7 +96,7 @@ struct ContentView: View {
 struct GitHubUser: Codable {
     let login: String
     let avatarUrl: String
-    let bio: String
+    let name: String
 }
 
 enum GitHubError: Error {
