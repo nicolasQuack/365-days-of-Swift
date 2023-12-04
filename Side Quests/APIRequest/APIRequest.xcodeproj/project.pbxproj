@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		606D22AE2B18E76B0061E953 /* APIResquestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606D22AD2B18E76B0061E953 /* APIResquestApp.swift */; };
+		606D22AE2B18E76B0061E953 /* APIRequestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606D22AD2B18E76B0061E953 /* APIRequestApp.swift */; };
 		606D22B02B18E76B0061E953 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606D22AF2B18E76B0061E953 /* ContentView.swift */; };
 		606D22B22B18E76D0061E953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606D22B12B18E76D0061E953 /* Assets.xcassets */; };
 		606D22B52B18E76D0061E953 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606D22B42B18E76D0061E953 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		606D22AA2B18E76B0061E953 /* APIResquest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIResquest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		606D22AD2B18E76B0061E953 /* APIResquestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResquestApp.swift; sourceTree = "<group>"; };
+		606D22AA2B18E76B0061E953 /* APIRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		606D22AD2B18E76B0061E953 /* APIRequestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestApp.swift; sourceTree = "<group>"; };
 		606D22AF2B18E76B0061E953 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		606D22B12B18E76D0061E953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		606D22B42B18E76D0061E953 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		606D22A12B18E76B0061E953 = {
 			isa = PBXGroup;
 			children = (
-				606D22AC2B18E76B0061E953 /* APIResquest */,
+				606D22AC2B18E76B0061E953 /* APIRequest */,
 				606D22AB2B18E76B0061E953 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +43,20 @@
 		606D22AB2B18E76B0061E953 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				606D22AA2B18E76B0061E953 /* APIResquest.app */,
+				606D22AA2B18E76B0061E953 /* APIRequest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		606D22AC2B18E76B0061E953 /* APIResquest */ = {
+		606D22AC2B18E76B0061E953 /* APIRequest */ = {
 			isa = PBXGroup;
 			children = (
-				606D22AD2B18E76B0061E953 /* APIResquestApp.swift */,
+				606D22AD2B18E76B0061E953 /* APIRequestApp.swift */,
 				606D22AF2B18E76B0061E953 /* ContentView.swift */,
 				606D22B12B18E76D0061E953 /* Assets.xcassets */,
 				606D22B32B18E76D0061E953 /* Preview Content */,
 			);
-			path = APIResquest;
+			path = APIRequest;
 			sourceTree = "<group>";
 		};
 		606D22B32B18E76D0061E953 /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		606D22A92B18E76B0061E953 /* APIResquest */ = {
+		606D22A92B18E76B0061E953 /* APIRequest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 606D22B82B18E76D0061E953 /* Build configuration list for PBXNativeTarget "APIResquest" */;
+			buildConfigurationList = 606D22B82B18E76D0061E953 /* Build configuration list for PBXNativeTarget "APIRequest" */;
 			buildPhases = (
 				606D22A62B18E76B0061E953 /* Sources */,
 				606D22A72B18E76B0061E953 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = APIResquest;
+			name = APIRequest;
 			productName = APIResquest;
-			productReference = 606D22AA2B18E76B0061E953 /* APIResquest.app */;
+			productReference = 606D22AA2B18E76B0061E953 /* APIRequest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 606D22A52B18E76B0061E953 /* Build configuration list for PBXProject "APIResquest" */;
+			buildConfigurationList = 606D22A52B18E76B0061E953 /* Build configuration list for PBXProject "APIRequest" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				606D22A92B18E76B0061E953 /* APIResquest */,
+				606D22A92B18E76B0061E953 /* APIRequest */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				606D22B02B18E76B0061E953 /* ContentView.swift in Sources */,
-				606D22AE2B18E76B0061E953 /* APIResquestApp.swift in Sources */,
+				606D22AE2B18E76B0061E953 /* APIRequestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +272,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"APIResquest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"APIRequest/Preview Content\"";
 				DEVELOPMENT_TEAM = U4X2VT88VJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -301,7 +301,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"APIResquest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"APIRequest/Preview Content\"";
 				DEVELOPMENT_TEAM = U4X2VT88VJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -326,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		606D22A52B18E76B0061E953 /* Build configuration list for PBXProject "APIResquest" */ = {
+		606D22A52B18E76B0061E953 /* Build configuration list for PBXProject "APIRequest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				606D22B62B18E76D0061E953 /* Debug */,
@@ -335,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		606D22B82B18E76D0061E953 /* Build configuration list for PBXNativeTarget "APIResquest" */ = {
+		606D22B82B18E76D0061E953 /* Build configuration list for PBXNativeTarget "APIRequest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				606D22B92B18E76D0061E953 /* Debug */,
