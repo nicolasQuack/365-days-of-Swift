@@ -29,7 +29,7 @@ This repository has been opened to develop iOS in a planned way.
 
 ## Project Map
 ℹ️ Projects with Project and Gallery link are completely made by me.
-
+ 
 ### UIKit
 
 | Name | File | Subjects |
@@ -49,6 +49,10 @@ This repository has been opened to develop iOS in a planned way.
 | Animations | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/26-34%20Expanding%20your%20skills/32-34%20Project%206">File</a> | | ⏳ |
 
 ## Side Project Map
+
+| Name | Subject | Url |
+| ---- | ------- | --- | 
+| API Request | Do a request API with Swift | <a href="">File</a> |   
 
 ### My Side Projects for iOS
 Sorted by development time.
