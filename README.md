@@ -50,16 +50,16 @@ This repository has been opened to develop iOS in a planned way.
 
 ## Side Project Map
 
-| Name | Subject | Url |
-| ---- | ------- | --- | 
-| API Request | Do a request API with Swift | <a href="">File</a> |   
+| Name | Status | Url | Subject | Main Technologies | Sub Technologies or Target |
+| ---- | ------ | --- | ------- | ----------------- | -------------------------- |
+| Request API | ✅ | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/Side%20Quests/APIRequest">File</a> | Connect the GitHub API to Swift App | Swift, GitHubAPI | Async, Await, Guard, JSONDecoder |
 
-### My Side Projects for iOS
+### My Main Projects for iOS
 Sorted by development time.
 
 | Name | Status | Url | Subject | Main Technologies | Sub Technologies or Target |
 | ---- | ------ | --- | ------- | ----------------- | -------------------------- |
-| Marvel Comics | 🏗️ | https://github.com/nicolasQuack/365-days-of-Swift/tree/main/Projects/MarvelComics | Entering the Marvel comics universe! | Swift, Marvel API |  |
+| Marvel Comics | 🏗️ | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/Projects/MarbleComics">File</a> | Entering the Marvel comics universe! | Swift, Marvel API |  |
 ## Rules
 
 + Deviation from sources
