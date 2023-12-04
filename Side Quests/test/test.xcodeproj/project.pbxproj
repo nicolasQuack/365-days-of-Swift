@@ -7,70 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		606D224F2B18CA9B0061E953 /* MarvelComicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606D224E2B18CA9B0061E953 /* MarvelComicsApp.swift */; };
-		606D22512B18CA9B0061E953 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606D22502B18CA9B0061E953 /* ContentView.swift */; };
-		606D22532B18CA9B0061E953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606D22522B18CA9B0061E953 /* Assets.xcassets */; };
-		606D22562B18CA9B0061E953 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606D22552B18CA9B0061E953 /* Preview Assets.xcassets */; };
-		606D225E2B18CB370061E953 /* _OpenAPIGeneratorCore in Frameworks */ = {isa = PBXBuildFile; productRef = 606D225D2B18CB370061E953 /* _OpenAPIGeneratorCore */; };
-		606D22602B18CB370061E953 /* swift-openapi-generator in Frameworks */ = {isa = PBXBuildFile; productRef = 606D225F2B18CB370061E953 /* swift-openapi-generator */; };
-		606D22632B18CB960061E953 /* OpenAPIRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 606D22622B18CB960061E953 /* OpenAPIRuntime */; };
-		606D22662B18CC2D0061E953 /* OpenAPIURLSession in Frameworks */ = {isa = PBXBuildFile; productRef = 606D22652B18CC2D0061E953 /* OpenAPIURLSession */; };
+		60D1FE752B1A38010049BB60 /* testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D1FE742B1A38010049BB60 /* testApp.swift */; };
+		60D1FE772B1A38010049BB60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D1FE762B1A38010049BB60 /* ContentView.swift */; };
+		60D1FE792B1A38020049BB60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D1FE782B1A38020049BB60 /* Assets.xcassets */; };
+		60D1FE7C2B1A38020049BB60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D1FE7B2B1A38020049BB60 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		606D224B2B18CA9B0061E953 /* MarvelComics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelComics.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		606D224E2B18CA9B0061E953 /* MarvelComicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelComicsApp.swift; sourceTree = "<group>"; };
-		606D22502B18CA9B0061E953 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		606D22522B18CA9B0061E953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		606D22552B18CA9B0061E953 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60D1FE712B1A38010049BB60 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D1FE742B1A38010049BB60 /* testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp.swift; sourceTree = "<group>"; };
+		60D1FE762B1A38010049BB60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60D1FE782B1A38020049BB60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60D1FE7B2B1A38020049BB60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		606D22482B18CA9B0061E953 /* Frameworks */ = {
+		60D1FE6E2B1A38010049BB60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				606D22662B18CC2D0061E953 /* OpenAPIURLSession in Frameworks */,
-				606D225E2B18CB370061E953 /* _OpenAPIGeneratorCore in Frameworks */,
-				606D22632B18CB960061E953 /* OpenAPIRuntime in Frameworks */,
-				606D22602B18CB370061E953 /* swift-openapi-generator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		606D22422B18CA9A0061E953 = {
+		60D1FE682B1A38010049BB60 = {
 			isa = PBXGroup;
 			children = (
-				606D224D2B18CA9B0061E953 /* MarvelComics */,
-				606D224C2B18CA9B0061E953 /* Products */,
+				60D1FE732B1A38010049BB60 /* test */,
+				60D1FE722B1A38010049BB60 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		606D224C2B18CA9B0061E953 /* Products */ = {
+		60D1FE722B1A38010049BB60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				606D224B2B18CA9B0061E953 /* MarvelComics.app */,
+				60D1FE712B1A38010049BB60 /* test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		606D224D2B18CA9B0061E953 /* MarvelComics */ = {
+		60D1FE732B1A38010049BB60 /* test */ = {
 			isa = PBXGroup;
 			children = (
-				606D224E2B18CA9B0061E953 /* MarvelComicsApp.swift */,
-				606D22502B18CA9B0061E953 /* ContentView.swift */,
-				606D22522B18CA9B0061E953 /* Assets.xcassets */,
-				606D22542B18CA9B0061E953 /* Preview Content */,
+				60D1FE742B1A38010049BB60 /* testApp.swift */,
+				60D1FE762B1A38010049BB60 /* ContentView.swift */,
+				60D1FE782B1A38020049BB60 /* Assets.xcassets */,
+				60D1FE7A2B1A38020049BB60 /* Preview Content */,
 			);
-			path = MarvelComics;
+			path = test;
 			sourceTree = "<group>";
 		};
-		606D22542B18CA9B0061E953 /* Preview Content */ = {
+		60D1FE7A2B1A38020049BB60 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				606D22552B18CA9B0061E953 /* Preview Assets.xcassets */,
+				60D1FE7B2B1A38020049BB60 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,46 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		606D224A2B18CA9B0061E953 /* MarvelComics */ = {
+		60D1FE702B1A38010049BB60 /* test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 606D22592B18CA9B0061E953 /* Build configuration list for PBXNativeTarget "MarvelComics" */;
+			buildConfigurationList = 60D1FE7F2B1A38020049BB60 /* Build configuration list for PBXNativeTarget "test" */;
 			buildPhases = (
-				606D22472B18CA9B0061E953 /* Sources */,
-				606D22482B18CA9B0061E953 /* Frameworks */,
-				606D22492B18CA9B0061E953 /* Resources */,
+				60D1FE6D2B1A38010049BB60 /* Sources */,
+				60D1FE6E2B1A38010049BB60 /* Frameworks */,
+				60D1FE6F2B1A38010049BB60 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				606D22682B18CC560061E953 /* PBXTargetDependency */,
 			);
-			name = MarvelComics;
-			packageProductDependencies = (
-				606D225D2B18CB370061E953 /* _OpenAPIGeneratorCore */,
-				606D225F2B18CB370061E953 /* swift-openapi-generator */,
-				606D22622B18CB960061E953 /* OpenAPIRuntime */,
-				606D22652B18CC2D0061E953 /* OpenAPIURLSession */,
-			);
-			productName = MarvelComics;
-			productReference = 606D224B2B18CA9B0061E953 /* MarvelComics.app */;
+			name = test;
+			productName = test;
+			productReference = 60D1FE712B1A38010049BB60 /* test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		606D22432B18CA9A0061E953 /* Project object */ = {
+		60D1FE692B1A38010049BB60 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					606D224A2B18CA9B0061E953 = {
+					60D1FE702B1A38010049BB60 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 606D22462B18CA9A0061E953 /* Build configuration list for PBXProject "MarvelComics" */;
+			buildConfigurationList = 60D1FE6C2B1A38010049BB60 /* Build configuration list for PBXProject "test" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,54 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 606D22422B18CA9A0061E953;
-			packageReferences = (
-				606D225C2B18CB370061E953 /* XCRemoteSwiftPackageReference "swift-openapi-generator" */,
-				606D22612B18CB960061E953 /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */,
-				606D22642B18CC2D0061E953 /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */,
-			);
-			productRefGroup = 606D224C2B18CA9B0061E953 /* Products */;
+			mainGroup = 60D1FE682B1A38010049BB60;
+			productRefGroup = 60D1FE722B1A38010049BB60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				606D224A2B18CA9B0061E953 /* MarvelComics */,
+				60D1FE702B1A38010049BB60 /* test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		606D22492B18CA9B0061E953 /* Resources */ = {
+		60D1FE6F2B1A38010049BB60 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				606D22562B18CA9B0061E953 /* Preview Assets.xcassets in Resources */,
-				606D22532B18CA9B0061E953 /* Assets.xcassets in Resources */,
+				60D1FE7C2B1A38020049BB60 /* Preview Assets.xcassets in Resources */,
+				60D1FE792B1A38020049BB60 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		606D22472B18CA9B0061E953 /* Sources */ = {
+		60D1FE6D2B1A38010049BB60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				606D22512B18CA9B0061E953 /* ContentView.swift in Sources */,
-				606D224F2B18CA9B0061E953 /* MarvelComicsApp.swift in Sources */,
+				60D1FE772B1A38010049BB60 /* ContentView.swift in Sources */,
+				60D1FE752B1A38010049BB60 /* testApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		606D22682B18CC560061E953 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = 606D22672B18CC560061E953 /* OpenAPIGenerator */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		606D22572B18CA9B0061E953 /* Debug */ = {
+		60D1FE7D2B1A38020049BB60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		606D22582B18CA9B0061E953 /* Release */ = {
+		60D1FE7E2B1A38020049BB60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -291,15 +264,14 @@
 			};
 			name = Release;
 		};
-		606D225A2B18CA9B0061E953 /* Debug */ = {
+		60D1FE802B1A38020049BB60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MarvelComics/Preview Content\"";
-				DEVELOPMENT_TEAM = U4X2VT88VJ;
+				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -312,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nicolas.florencio.felipe.MarvelComics;
+				PRODUCT_BUNDLE_IDENTIFIER = nicolas.florencio.felipe.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,15 +292,14 @@
 			};
 			name = Debug;
 		};
-		606D225B2B18CA9B0061E953 /* Release */ = {
+		60D1FE812B1A38020049BB60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MarvelComics/Preview Content\"";
-				DEVELOPMENT_TEAM = U4X2VT88VJ;
+				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -341,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nicolas.florencio.felipe.MarvelComics;
+				PRODUCT_BUNDLE_IDENTIFIER = nicolas.florencio.felipe.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -352,80 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		606D22462B18CA9A0061E953 /* Build configuration list for PBXProject "MarvelComics" */ = {
+		60D1FE6C2B1A38010049BB60 /* Build configuration list for PBXProject "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				606D22572B18CA9B0061E953 /* Debug */,
-				606D22582B18CA9B0061E953 /* Release */,
+				60D1FE7D2B1A38020049BB60 /* Debug */,
+				60D1FE7E2B1A38020049BB60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		606D22592B18CA9B0061E953 /* Build configuration list for PBXNativeTarget "MarvelComics" */ = {
+		60D1FE7F2B1A38020049BB60 /* Build configuration list for PBXNativeTarget "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				606D225A2B18CA9B0061E953 /* Debug */,
-				606D225B2B18CA9B0061E953 /* Release */,
+				60D1FE802B1A38020049BB60 /* Debug */,
+				60D1FE812B1A38020049BB60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		606D225C2B18CB370061E953 /* XCRemoteSwiftPackageReference "swift-openapi-generator" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apple/swift-openapi-generator";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 0.3.5;
-			};
-		};
-		606D22612B18CB960061E953 /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apple/swift-openapi-runtime";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 0.3.6;
-			};
-		};
-		606D22642B18CC2D0061E953 /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apple/swift-openapi-urlsession";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 0.3.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		606D225D2B18CB370061E953 /* _OpenAPIGeneratorCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 606D225C2B18CB370061E953 /* XCRemoteSwiftPackageReference "swift-openapi-generator" */;
-			productName = _OpenAPIGeneratorCore;
-		};
-		606D225F2B18CB370061E953 /* swift-openapi-generator */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 606D225C2B18CB370061E953 /* XCRemoteSwiftPackageReference "swift-openapi-generator" */;
-			productName = "swift-openapi-generator";
-		};
-		606D22622B18CB960061E953 /* OpenAPIRuntime */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 606D22612B18CB960061E953 /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */;
-			productName = OpenAPIRuntime;
-		};
-		606D22652B18CC2D0061E953 /* OpenAPIURLSession */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 606D22642B18CC2D0061E953 /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */;
-			productName = OpenAPIURLSession;
-		};
-		606D22672B18CC560061E953 /* OpenAPIGenerator */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 606D225C2B18CB370061E953 /* XCRemoteSwiftPackageReference "swift-openapi-generator" */;
-			productName = "plugin:OpenAPIGenerator";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 606D22432B18CA9A0061E953 /* Project object */;
+	rootObject = 60D1FE692B1A38010049BB60 /* Project object */;
 }
