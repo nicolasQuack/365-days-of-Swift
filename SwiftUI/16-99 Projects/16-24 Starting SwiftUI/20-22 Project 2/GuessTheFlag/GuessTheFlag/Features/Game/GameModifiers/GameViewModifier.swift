@@ -37,3 +37,18 @@ extension Image {
         modifier(ImageRender())
     }
 }
+
+struct GlobeRotatio: ViewModifier {
+    let angle: Int
+
+    func body(content: Content) -> some View {
+        content
+            .rotationEffect(.degrees(Double(angle)))
+    }
+}
+
+extension AnyTransition {
+    static var earthRotation: AnyTransition {
+        .modifier(active: GlobeRotatio(angle: 360), identity: GlobeRotatio(angle: 0))
+    }
+}

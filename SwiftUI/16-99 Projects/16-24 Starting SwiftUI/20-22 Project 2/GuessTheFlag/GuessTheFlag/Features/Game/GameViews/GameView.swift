@@ -64,6 +64,8 @@ struct GameView: View {
                                         .lowercased()
                                 )
                                 .imageView()
+                                .opacity(rightAnswer || wrongAnswer ? 0.25 : 1)
+                                .animation(.easeOut(duration: 0.5), value: rightAnswer || wrongAnswer)
                                     
                             }
                             
@@ -94,17 +96,19 @@ struct GameView: View {
             }
             .padding()
             .disabled(rightAnswer || wrongAnswer /*|| counter == 8*/)
+
             
             ZStack {
                 if rightAnswer {
                     AlertModel(title: "Correct Answer", message: "Alright, let's go!", imgPath: countriesData[myIndexes[numOfCorrectAnswer]].id.lowercased()) {
                         askQuestion()
-                    }.transition(.opacity)
-                } 
+                    }.transition(.earthRotation.combined(with: .scale))
+                    
+                }
                 else if wrongAnswer {
                     AlertModel(title: "Wrong Answer", message: "Bad! You're the worst!", iconName: "figure.handball", imgPath: countriesData[myIndexes[numOfCorrectAnswer]].id.lowercased()) {
                         askQuestion()
-                    }.transition(.opacity)
+                    }.transition(.earthRotation.combined(with: .scale))
                     
                 } 
 //                else if counter == 8 {
