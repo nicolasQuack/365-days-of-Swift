@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6007EE402B2200BC00EE3B2C /* Difficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007EE3F2B2200BC00EE3B2C /* Difficulty.swift */; };
 		604EA34F2B2163F300B1812C /* EducationalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604EA34E2B2163F300B1812C /* EducationalApp.swift */; };
 		604EA3512B2163F300B1812C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604EA3502B2163F300B1812C /* ContentView.swift */; };
 		604EA3532B2163F400B1812C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604EA3522B2163F400B1812C /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6007EE3F2B2200BC00EE3B2C /* Difficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Difficulty.swift; sourceTree = "<group>"; };
 		604EA34B2B2163F300B1812C /* Educational.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Educational.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		604EA34E2B2163F300B1812C /* EducationalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationalApp.swift; sourceTree = "<group>"; };
 		604EA3502B2163F300B1812C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6007EE3E2B22009300EE3B2C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6007EE3F2B2200BC00EE3B2C /* Difficulty.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		604EA3422B2163F300B1812C = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		604EA34D2B2163F300B1812C /* Educational */ = {
 			isa = PBXGroup;
 			children = (
+				6007EE3E2B22009300EE3B2C /* Classes */,
 				604EA34E2B2163F300B1812C /* EducationalApp.swift */,
 				604EA3502B2163F300B1812C /* ContentView.swift */,
 				604EA3522B2163F400B1812C /* Assets.xcassets */,
@@ -139,6 +150,7 @@
 			files = (
 				604EA3512B2163F300B1812C /* ContentView.swift in Sources */,
 				604EA34F2B2163F300B1812C /* EducationalApp.swift in Sources */,
+				6007EE402B2200BC00EE3B2C /* Difficulty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
