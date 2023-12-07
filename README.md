@@ -47,6 +47,7 @@ This repository has been opened to develop iOS in a planned way.
 | Better Rest | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/26-34%20Expanding%20your%20skills/26-28%20Project%204/BetterRest">File</a> | Machine Learning, Dates, Stepper | ✅ |
 | Word Scramble | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/26-34%20Expanding%20your%20skills/29-31%20Project%205/WordScramble">File</a> | Lists, UITextChecker, URLs, Bundle, Fatal Errors | ✅ |
 | Animations | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/26-34%20Expanding%20your%20skills/32-34%20Project%206">File</a> | DragGesture, WithAnimation, Animations | ✅ |
+| Educational Calculator | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/35%20Consolidation%20III/35%20Milestone%20Project%204-6/Educational">File</a> |  | ⏳ |
 
 ## Side Project Map
 
