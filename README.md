@@ -56,7 +56,7 @@ Sorted by my studies.
 | ---- | ------ | --- | ------- | ----------------- | -------------------------- |
 | Request API | ✅ | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/Side%20Quests/APIRequest">File</a> | Connect the GitHub API to Swift App | Swift, GitHubAPI | Async, Await, Guard, JSONDecoder |
 
-### My Main Projects for iOS
+## My Main Projects for iOS
 Sorted by development time.
 
 | Name | Status | Url | Subject | Main Technologies | Sub Technologies or Target |
