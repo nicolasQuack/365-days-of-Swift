@@ -50,6 +50,7 @@ This repository has been opened to develop iOS in a planned way.
 | Educational Calculator | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/35%20Consolidation%20III/35%20Milestone%20Project%204-6/Educational">File</a> |  | ⏳ |
 
 ## Side Project Map
+Sorted by my studies.
 
 | Name | Status | Url | Subject | Main Technologies | Sub Technologies or Target |
 | ---- | ------ | --- | ------- | ----------------- | -------------------------- |
@@ -61,6 +62,7 @@ Sorted by development time.
 | Name | Status | Url | Subject | Main Technologies | Sub Technologies or Target |
 | ---- | ------ | --- | ------- | ----------------- | -------------------------- |
 | Marvel Comics | 🏗️ | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/Projects/MarbleComics">File</a> | Entering the Marvel comics universe! | Swift, Marvel API |  |
+
 ## Rules
 
 + Deviation from sources
