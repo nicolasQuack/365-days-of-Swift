@@ -8,11 +8,27 @@
 import SwiftUI
 
 struct QuestionsView: View {
+    @State public var gameObject: Game
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            List {
+                ForEach (0..<gameObject.numOfQuestions, id: \.self) { num in
+                    Image(systemName: "\(num+1).circle")
+                }
+            }
+        }
+    }
+    
+    func generateQuestions () -> Int {
+        let a: Int = gameObject.multipliers.randomElement() ?? 0
+        let b: Int = gameObject.multipliers.randomElement() ?? 0
+        return a*b
     }
 }
 
 #Preview {
-    QuestionsView()
+    QuestionsView(
+        gameObject: Game(multipliers: [1, 2, 3, 4, 5], numOfQuestions: 5)
+    )
 }
