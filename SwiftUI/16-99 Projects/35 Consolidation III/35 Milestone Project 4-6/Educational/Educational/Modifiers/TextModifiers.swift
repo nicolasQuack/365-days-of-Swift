@@ -11,11 +11,10 @@ import SwiftUI
 struct TitleModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
-            .foregroundStyle(.black)
-            .font(.largeTitle)
-            .fontWeight(.light)
-            .shadow(radius: 20)
-            .padding(.vertical)
+            .padding()
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .font(.title2)
+            .foregroundStyle(.gray)
     }
 }
 

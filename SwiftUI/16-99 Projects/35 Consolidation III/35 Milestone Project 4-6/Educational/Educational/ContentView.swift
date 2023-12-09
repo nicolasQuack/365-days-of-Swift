@@ -36,17 +36,15 @@ struct ContentView: View {
     
     @State private var isPressed = false
     
-    
-    
-    
     var body: some View {
         VStack {
             
             //Select difficulty
-            VStack {
+            Section {
+                
                 Text("Select difficulty:")
                     .textStyle()
-
+                
                 HStack (spacing: 20) {
                     ForEach(0..<difficultyLevelLabel.count, id: \.self) { num in
                         
@@ -61,15 +59,14 @@ struct ContentView: View {
                                 .shadow(radius: 10)
                                 .frame(width: 100, height: 100)
                                 .opacity(difficultyLevel[num] != currentDifficulty ? 0.3 : 1.0)
-                                .animation(.linear(duration: 1), value: currentDifficulty)
+                                .animation(.linear(duration: 0.8), value: currentDifficulty)
                         }
                     }
                 }
             }
-            .padding(.top, 50)
             
             //Number of Questions
-            VStack {
+            Section {
                 Text("Number of Questions:")
                     .textStyle()
 
@@ -82,13 +79,14 @@ struct ContentView: View {
                 .shadow(radius: 10)
                 .frame(width: 340)
             }
-            .padding(.top, 30)
             
             //Generate button
-            VStack {
+            Section {
                 Button {
                     obj = Game(multipliers: difficultyCalculator, numOfQuestions: currentNumOfQuestions)
-                    isPressed.toggle()
+                    withAnimation {
+                        isPressed.toggle()
+                    }
                 } label: {
                     ZStack {
                         Rectangle()
@@ -96,22 +94,24 @@ struct ContentView: View {
                             .frame(width: 100, height: 50)
                             .clipShape(.buttonBorder)
                             .shadow(radius: 10)
-                        Text("Generate")
-                            .foregroundStyle(.black)
+                        
+                        Text(isPressed ? "Back" : "Start")
+                            .animation(nil)
+                        
                     }
                 }
+                .padding(.top, 30)
                 
                 if isPressed {
-                    withAnimation {
-                        QuestionsView(gameObject: obj)
-                    }
+                    QuestionsView(gameObject: obj)
+                        .transition(.asymmetric(insertion: .push(from: .bottom), removal: .push(from: .top)))
                 }
+                
             }
-            .padding(.top, 50)
-            
-            Spacer()
+            .padding(.bottom)
             
         }
+        .padding()
     }
 }
 
