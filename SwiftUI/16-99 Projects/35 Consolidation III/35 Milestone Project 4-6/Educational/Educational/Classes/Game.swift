@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Game {
+struct Game {
     var multipliers: Array<Int>
     var numOfQuestions: Int
     
