@@ -57,7 +57,6 @@ struct ContentView: View {
                                         .fill(num == 0 ? .green : num == 1 ? .yellow : .red)
                                         .clipShape(.buttonBorder)
                                         .font(.subheadline)
-                                        .foregroundStyle(.primary)
                                         .shadow(radius: 10)
                                         .frame(width: 100, height: 100)
                                         .opacity(difficultyLevel[num] != currentDifficulty ? 0.3 : 1.0)
