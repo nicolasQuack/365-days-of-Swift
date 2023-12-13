@@ -20,12 +20,13 @@ struct QuestionModel: View {
         ZStack {
             
             if isSend {
-                Rectangle()
+                RoundedRectangle(cornerRadius: 15.0)
                     .fill(isSend && self.question.getResult() == authOfInt(text) ? .green : .red)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .opacity(0.8)
+                    .opacity(0.6)
                     .zIndex(1000.0)
-                
+                    .transition(.scale)
+                    .padding(.horizontal, 10)
             }
             
             VStack {
@@ -38,7 +39,9 @@ struct QuestionModel: View {
                     if question.getResult() == authOfInt(text) {
                         sharedData.score += 1
                     }
-                    isSend.toggle()
+                    withAnimation {
+                        isSend.toggle()
+                    }
                     
                 } label: {
                     Text("Send")
@@ -46,7 +49,7 @@ struct QuestionModel: View {
                 .padding()
                 
             }
-            .frame(maxWidth: .infinity, alignment: .center)
+            
         }
         .disabled(isSend)
         
