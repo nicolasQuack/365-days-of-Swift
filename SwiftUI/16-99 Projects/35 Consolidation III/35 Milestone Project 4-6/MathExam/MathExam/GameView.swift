@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct GameView: View {
-
+    
     var arrayOfQuestions: Array<Question>
     
     var body: some View {
-        List {
+        ScrollView {
             ForEach(arrayOfQuestions, id: \.id) { question in
                 QuestionModel(question: question)
-                    .frame(maxHeight: .infinity, alignment: .center)
             }
         }
     }
