@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60A422B92B2C8DE300466B09 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A422B82B2C8DE300466B09 /* ExpenseItem.swift */; };
 		60BC21DC2B2B31A300E0EB3D /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC21DB2B2B31A300E0EB3D /* iExpenseApp.swift */; };
 		60BC21DE2B2B31A300E0EB3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC21DD2B2B31A300E0EB3D /* ContentView.swift */; };
 		60BC21E02B2B31A400E0EB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BC21DF2B2B31A400E0EB3D /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60A422B82B2C8DE300466B09 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		60BC21D82B2B31A300E0EB3D /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BC21DB2B2B31A300E0EB3D /* iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
 		60BC21DD2B2B31A300E0EB3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60A422B52B2C8DA600466B09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				60A422B82B2C8DE300466B09 /* ExpenseItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		60BC21CF2B2B31A300E0EB3D = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 		60BC21DA2B2B31A300E0EB3D /* iExpense */ = {
 			isa = PBXGroup;
 			children = (
+				60A422B52B2C8DA600466B09 /* Models */,
 				60BC21E92B2B3AFD00E0EB3D /* Studies */,
 				60BC21DB2B2B31A300E0EB3D /* iExpenseApp.swift */,
 				60BC21DD2B2B31A300E0EB3D /* ContentView.swift */,
@@ -163,6 +174,7 @@
 				60BC21DE2B2B31A300E0EB3D /* ContentView.swift in Sources */,
 				60BC21EB2B2B3B1600E0EB3D /* Observable.swift in Sources */,
 				60BC21F12B2B43CC00E0EB3D /* StoringUserSettings.swift in Sources */,
+				60A422B92B2C8DE300466B09 /* ExpenseItem.swift in Sources */,
 				60BC21ED2B2B3EFF00E0EB3D /* SheetModifier.swift in Sources */,
 				60BC21F32B2B52B300E0EB3D /* Codable.swift in Sources */,
 				60BC21DC2B2B31A300E0EB3D /* iExpenseApp.swift in Sources */,

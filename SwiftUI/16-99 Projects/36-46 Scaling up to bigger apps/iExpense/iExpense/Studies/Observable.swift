@@ -9,23 +9,23 @@ import SwiftUI
 import Observation
 
 struct ObservableView: View {
-    @State private var user = Person()
+//    @State private var user = Person()
 
     var body: some View {
         VStack {
-            Text("Your name is \(user.firstName) \(user.lastName).")
-
-            TextField("First name", text: $user.firstName)
-            TextField("Last name", text: $user.lastName)
+//            Text("Your name is \(user.firstName) \(user.lastName).")
+//
+//            TextField("First name", text: $user.firstName)
+//            TextField("Last name", text: $user.lastName)
         }
     }
 }
 
-@Observable
-class Person {
-    var firstName = "Bilbo"
-    var lastName = "Baggins"
-}
+//@Observable
+//class Person {
+//    var firstName = "Bilbo"
+//    var lastName = "Baggins"
+//}
 
 /// When we add @State to a instance, Swift will observe this variable when he change, here, Swift would change when the object was re-invoke, but class not is re-invoked, because that's a class and struct is re-invoked because when changed any thing inside him, the struct was re-created;
 /// Adding the @Observable, we will assist class when he changed and send the feature, but not re-create;
