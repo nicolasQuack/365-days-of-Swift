@@ -78,8 +78,8 @@
 			children = (
 				60A422B52B2C8DA600466B09 /* Models */,
 				60BC21E92B2B3AFD00E0EB3D /* Studies */,
-				60BC21DB2B2B31A300E0EB3D /* iExpenseApp.swift */,
 				60BC21DD2B2B31A300E0EB3D /* ContentView.swift */,
+				60BC21DB2B2B31A300E0EB3D /* iExpenseApp.swift */,
 				60A422BC2B2C96B900466B09 /* AddView.swift */,
 				60BC21DF2B2B31A400E0EB3D /* Assets.xcassets */,
 				60BC21E12B2B31A400E0EB3D /* Preview Content */,
