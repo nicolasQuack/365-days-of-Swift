@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		604F5B262B2DF35E0012FEBA /* CardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F5B252B2DF35E0012FEBA /* CardContent.swift */; };
 		60A422B92B2C8DE300466B09 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A422B82B2C8DE300466B09 /* ExpenseItem.swift */; };
 		60A422BB2B2C8F1100466B09 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A422BA2B2C8F1100466B09 /* Expenses.swift */; };
 		60A422BD2B2C96B900466B09 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A422BC2B2C96B900466B09 /* AddView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		604F5B252B2DF35E0012FEBA /* CardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContent.swift; sourceTree = "<group>"; };
 		60A422B82B2C8DE300466B09 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		60A422BA2B2C8F1100466B09 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		60A422BC2B2C96B900466B09 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
@@ -48,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		604F5B272B2DF3750012FEBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60A422BC2B2C96B900466B09 /* AddView.swift */,
+				604F5B252B2DF35E0012FEBA /* CardContent.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		60A422B52B2C8DA600466B09 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,11 +87,11 @@
 		60BC21DA2B2B31A300E0EB3D /* iExpense */ = {
 			isa = PBXGroup;
 			children = (
+				604F5B272B2DF3750012FEBA /* Views */,
 				60A422B52B2C8DA600466B09 /* Models */,
 				60BC21E92B2B3AFD00E0EB3D /* Studies */,
 				60BC21DD2B2B31A300E0EB3D /* ContentView.swift */,
 				60BC21DB2B2B31A300E0EB3D /* iExpenseApp.swift */,
-				60A422BC2B2C96B900466B09 /* AddView.swift */,
 				60BC21DF2B2B31A400E0EB3D /* Assets.xcassets */,
 				60BC21E12B2B31A400E0EB3D /* Preview Content */,
 			);
@@ -183,6 +194,7 @@
 				60BC21F12B2B43CC00E0EB3D /* StoringUserSettings.swift in Sources */,
 				60A422B92B2C8DE300466B09 /* ExpenseItem.swift in Sources */,
 				60BC21ED2B2B3EFF00E0EB3D /* SheetModifier.swift in Sources */,
+				604F5B262B2DF35E0012FEBA /* CardContent.swift in Sources */,
 				60BC21F32B2B52B300E0EB3D /* Codable.swift in Sources */,
 				60A422BB2B2C8F1100466B09 /* Expenses.swift in Sources */,
 				60BC21DC2B2B31A300E0EB3D /* iExpenseApp.swift in Sources */,

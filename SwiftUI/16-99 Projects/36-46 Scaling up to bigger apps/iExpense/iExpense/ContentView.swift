@@ -17,24 +17,28 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
-                ForEach(expenses.items) { item in
-                    HStack {
-                        VStack(alignment: .leading) {
-                            Text(item.name)
-                                .font(.headline)
-                            Text(item.type)
+                Section("Personal") {
+                    ForEach(expenses.items) { item in
+                        if item.type == "Personal" {
+                            CardContent(name: item.name, type: item.type, amount: item.amount)
                         }
-                        
-                        Spacer()
-                        Text(item.amount, format: .currency(code: usrRegionCode))
-                            .foregroundStyle(item.amount > 10.00 ? . red : .black)
-                            .bold(item.amount > 100.00)
                     }
-                    
+                    .onDelete(perform: removeItems)
                 }
-                .onDelete(perform: removeItems)
+                
+                
+                Section("Business") {
+                    ForEach(expenses.items) { item in
+                        if item.type == "Business" {
+                            CardContent(name: item.name, type: item.type, amount: item.amount)
+                        }
+                    }
+                    .onDelete(perform: removeItems)
+                }
+                
+                
             }
-            .navigationTitle("iExpense  ")
+            .navigationTitle("iExpense")
             .toolbar {
                 Button ("Add Expense", systemImage: "plus") {
                     showingAddExpense.toggle()
