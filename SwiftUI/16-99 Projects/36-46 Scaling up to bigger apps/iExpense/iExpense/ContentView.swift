@@ -27,7 +27,10 @@ struct ContentView: View {
                         
                         Spacer()
                         Text(item.amount, format: .currency(code: usrRegionCode))
+                            .foregroundStyle(item.amount > 10.00 ? . red : .black)
+                            .bold(item.amount > 100.00)
                     }
+                    
                 }
                 .onDelete(perform: removeItems)
             }
