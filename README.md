@@ -29,6 +29,13 @@ This repository has been opened to develop iOS in a planned way.
 
 ## Project Map
 ℹ️ Projects with Project and Gallery link are completely made by me.
+
+#### Dictionary
+
+✅ - Done!
+⏳ - In Progress!
+🔃 - Redo!
+🏗️ - In Long Progress!
  
 ### UIKit
 
@@ -47,7 +54,7 @@ This repository has been opened to develop iOS in a planned way.
 | Better Rest | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/26-34%20Expanding%20your%20skills/26-28%20Project%204/BetterRest">File</a> | Machine Learning, Dates, Stepper | ✅ |
 | Word Scramble | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/26-34%20Expanding%20your%20skills/29-31%20Project%205/WordScramble">File</a> | Lists, UITextChecker, URLs, Bundle, Fatal Errors | ✅ |
 | Animations | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/26-34%20Expanding%20your%20skills/32-34%20Project%206">File</a> | DragGesture, WithAnimation, Animations | ✅ |
-| Math Exam | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/35%20Consolidation%20III/35%20Milestone%20Project%204-6/Educational">File</a> | Challenge | ✅ |
+| Math Exam | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/35%20Consolidation%20III/35%20Milestone%20Project%204-6/Educational">File</a> | Challenge | 🔃 |
 | iExpense | <a href="https://github.com/nicolasQuack/365-days-of-Swift/tree/main/SwiftUI/16-99%20Projects/36-46%20Scaling%20up%20to%20bigger%20apps/iExpense">File</a> | UserDefaults, Codable, Decodable, @Observable, Delete , Sheet | ✅ |
 ## Side Project Map
 Sorted by my studies.
