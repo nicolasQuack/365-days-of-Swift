@@ -33,6 +33,7 @@ This repository has been opened to develop iOS in a planned way.
 #### Dictionary
 
 | Emoji | Description |
+|------ | ----------- |
 | ✅ | Done |
 | ⏳ | In progress... |
 | 🔃 | Redo |
