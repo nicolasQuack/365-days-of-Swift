@@ -32,10 +32,11 @@ This repository has been opened to develop iOS in a planned way.
 
 #### Dictionary
 
-✅ - Done!
-⏳ - In Progress!
-🔃 - Redo!
-🏗️ - In Long Progress!
+| Emoji | Description |
+| ✅ | Done |
+| ⏳ | In progress... |
+| 🔃 | Redo |
+| 🏗️ | Major project in progress... |
  
 ### UIKit
 
