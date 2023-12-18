@@ -7,7 +7,7 @@ This repository has been opened to develop iOS in a planned way.
 |-----|------------------------------------| ------------- | 
 | 100 | Swift And UIKit                    |               |
 | 100 | Swift Review and SwiftUI           |  In progress  |
-| 365 | Project examples and more practice |               |
+| 365 | Project examples and more practice |  In progress  |
 
 ## Swift Fundamentals (In progress 🏗️)
 | Topics                                        | File                                                                                                                                                        |
