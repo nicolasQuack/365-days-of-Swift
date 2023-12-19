@@ -6,9 +6,16 @@
 //
 
 import Foundation
+import Observation
 
-struct ExamQuestions: Equatable {
+@Observable
+class ExamQuestions: Identifiable, Equatable {
     
+    static func == (lhs: ExamQuestions, rhs: ExamQuestions) -> Bool {
+        return true
+    }
+    
+    var id = UUID()
     var difficulty: Difficulty
     var multipliers: Array<Int> {
         switch difficulty {
@@ -25,6 +32,7 @@ struct ExamQuestions: Equatable {
     var answer: Int {
         x*y
     }
+    var userAnswer = String()
     
     init(difficulty: Difficulty) {
         self.difficulty = difficulty
@@ -32,6 +40,10 @@ struct ExamQuestions: Equatable {
         x = multipliers.shuffled()[0]
         y = Array(2...multipliers.last!).shuffled()[0]
     
+    }
+    
+    func setUserAnswer (_ str: String) {
+        self.userAnswer = str
     }
     
 }
