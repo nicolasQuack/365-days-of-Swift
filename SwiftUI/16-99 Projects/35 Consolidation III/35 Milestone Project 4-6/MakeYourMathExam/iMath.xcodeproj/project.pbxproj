@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		60386EF62B31D9A7003498BB /* QuestionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60386EF52B31D9A7003498BB /* QuestionsModel.swift */; };
 		60386EF82B320BF4003498BB /* TestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60386EF72B320BF4003498BB /* TestResult.swift */; };
-		604F5B352B2E08CE0012FEBA /* MakeYourMathExamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F5B342B2E08CE0012FEBA /* MakeYourMathExamApp.swift */; };
+		604F5B352B2E08CE0012FEBA /* iMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F5B342B2E08CE0012FEBA /* iMath.swift */; };
 		604F5B372B2E08CE0012FEBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F5B362B2E08CE0012FEBA /* ContentView.swift */; };
 		604F5B392B2E08CF0012FEBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604F5B382B2E08CF0012FEBA /* Assets.xcassets */; };
 		604F5B3C2B2E08CF0012FEBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604F5B3B2B2E08CF0012FEBA /* Preview Assets.xcassets */; };
@@ -25,8 +25,8 @@
 /* Begin PBXFileReference section */
 		60386EF52B31D9A7003498BB /* QuestionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsModel.swift; sourceTree = "<group>"; };
 		60386EF72B320BF4003498BB /* TestResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResult.swift; sourceTree = "<group>"; };
-		604F5B312B2E08CE0012FEBA /* MakeYourMathExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeYourMathExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		604F5B342B2E08CE0012FEBA /* MakeYourMathExamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeYourMathExamApp.swift; sourceTree = "<group>"; };
+		604F5B312B2E08CE0012FEBA /* iMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		604F5B342B2E08CE0012FEBA /* iMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMath.swift; sourceTree = "<group>"; };
 		604F5B362B2E08CE0012FEBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		604F5B382B2E08CF0012FEBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		604F5B3B2B2E08CF0012FEBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		604F5B322B2E08CE0012FEBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				604F5B312B2E08CE0012FEBA /* MakeYourMathExam.app */,
+				604F5B312B2E08CE0012FEBA /* iMath.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,7 +72,7 @@
 				6060F06E2B30A55200ACE3D5 /* Classes */,
 				604F5B452B2E12500012FEBA /* Models */,
 				604F5B422B2E106B0012FEBA /* Views */,
-				604F5B342B2E08CE0012FEBA /* MakeYourMathExamApp.swift */,
+				604F5B342B2E08CE0012FEBA /* iMath.swift */,
 				604F5B362B2E08CE0012FEBA /* ContentView.swift */,
 				604F5B382B2E08CF0012FEBA /* Assets.xcassets */,
 				604F5B3A2B2E08CF0012FEBA /* Preview Content */,
@@ -121,9 +121,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		604F5B302B2E08CE0012FEBA /* MakeYourMathExam */ = {
+		604F5B302B2E08CE0012FEBA /* iMath */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 604F5B3F2B2E08CF0012FEBA /* Build configuration list for PBXNativeTarget "MakeYourMathExam" */;
+			buildConfigurationList = 604F5B3F2B2E08CF0012FEBA /* Build configuration list for PBXNativeTarget "iMath" */;
 			buildPhases = (
 				604F5B2D2B2E08CE0012FEBA /* Sources */,
 				604F5B2E2B2E08CE0012FEBA /* Frameworks */,
@@ -133,9 +133,9 @@
 			);
 			dependencies = (
 			);
-			name = MakeYourMathExam;
+			name = iMath;
 			productName = MakeYourMathExam;
-			productReference = 604F5B312B2E08CE0012FEBA /* MakeYourMathExam.app */;
+			productReference = 604F5B312B2E08CE0012FEBA /* iMath.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 604F5B2C2B2E08CE0012FEBA /* Build configuration list for PBXProject "MakeYourMathExam" */;
+			buildConfigurationList = 604F5B2C2B2E08CE0012FEBA /* Build configuration list for PBXProject "iMath" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -166,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				604F5B302B2E08CE0012FEBA /* MakeYourMathExam */,
+				604F5B302B2E08CE0012FEBA /* iMath */,
 			);
 		};
 /* End PBXProject section */
@@ -195,7 +195,7 @@
 				604F5B442B2E10810012FEBA /* SettingsView.swift in Sources */,
 				6060F0722B30A6D000ACE3D5 /* ExamQuestions.swift in Sources */,
 				609C69862B322A3500BC5BEE /* DetailsModel.swift in Sources */,
-				604F5B352B2E08CE0012FEBA /* MakeYourMathExamApp.swift in Sources */,
+				604F5B352B2E08CE0012FEBA /* iMath.swift in Sources */,
 				60386EF62B31D9A7003498BB /* QuestionsModel.swift in Sources */,
 				604F5B472B2E12700012FEBA /* TextSubHeadlineModel.swift in Sources */,
 				6060F0702B30A56A00ACE3D5 /* Exam.swift in Sources */,
@@ -385,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		604F5B2C2B2E08CE0012FEBA /* Build configuration list for PBXProject "MakeYourMathExam" */ = {
+		604F5B2C2B2E08CE0012FEBA /* Build configuration list for PBXProject "iMath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				604F5B3D2B2E08CF0012FEBA /* Debug */,
@@ -394,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		604F5B3F2B2E08CF0012FEBA /* Build configuration list for PBXNativeTarget "MakeYourMathExam" */ = {
+		604F5B3F2B2E08CF0012FEBA /* Build configuration list for PBXNativeTarget "iMath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				604F5B402B2E08CF0012FEBA /* Debug */,
