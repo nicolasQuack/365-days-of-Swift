@@ -17,7 +17,7 @@ struct ContentView: View {
         NavigationStack {
             VStack {
                 
-                Text("Make your own math exam and guarantee yourself!")
+                Text("Make your own math exam and guarantee yourself")
                     .textSubHeadlineStyle()
                 
                 Image("girlInMathExam")
@@ -30,7 +30,7 @@ struct ContentView: View {
                     
                     
                 NavigationLink("Generate") {
-                    ExamView()
+                    ExamView(exam: exam)
                 }
                 .buttonStyle(.borderedProminent)
                 .disabled(exam.questions == [ExamQuestions]())
