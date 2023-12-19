@@ -1,4 +1,4 @@
-//
+ //
 //  GenerateConfigView.swift
 //  MakeYourMathExam
 //
