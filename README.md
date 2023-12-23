@@ -12,7 +12,7 @@ This repository has been opened to develop iOS in a planned way.
 ## Swift Fundamentals (In progress 🏗️)
 | Topics                                        | File                                                                                                                                                        |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Variables                                     | <a href=" /">File</a> |
+| Variables                                     | <a href="/">File</a> |
 | Complex Variables and Enums                   | <a href="/">File</a> |
 | Operators, Conditions and Switch-Case Usage   | <a href="/">File</a> |
 | Loops                                         | <a href="/">File</a> |
