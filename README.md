@@ -3,7 +3,7 @@ This repository has been opened to develop iOS in a planned way.
 
 ## Plan
 
-| Day | Title                              | State         | 
+| Day | Title                              | State        | 
 |-----|------------------------------------| ------------- | 
 | 100 | Swift And UIKit                    |    |
 | 100 | Swift Review and SwiftUI           |  In progress  |
